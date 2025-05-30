@@ -6,6 +6,6 @@ if [[ $# -ne 1 ]]; then
 fi
 
 module purge
-export EESSI_REPOS_CFG_DIR_OVERRIDE=~/stack-on-top-of-EESSI/repos.cfg
+export EESSI_REPOS_CFG_DIR_OVERRIDE=~/stack-on-top-of-eessi/repos.cfg
 
 ~/software-layer/eessi_container.sh --mode run -r webinar-demo,access=rw -r software.eessi.io -b ~/software-layer,$PWD -- ./install-on-top-of-EESSI.sh $*
