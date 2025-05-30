@@ -1,0 +1,8 @@
+easyconfigs:
+  - file-5.43-GCCcore-13.2.0.eb
+  - gh-2.52.0.eb
+  - Go-1.22.1.eb
+  - Relate-20250429-foss-2023b.eb:
+      options:
+        # see https://github.com/easybuilders/easybuild-easyconfigs/pull/22859
+        from-commit: 47abb293b743eea84331bd3d64eed0c85cad6280
