@@ -2,6 +2,8 @@
 
 This project demonstrates how you could build a software stack on top of EESSI.
 
+This is a companion repository for the last session of the [May-June 2025 EESSI Webinar Series](https://www.eessi.io/docs/training/2025/webinar-series-2025Q2/): [Using EESSI as the base for a system stack](https://www.eessi.io/docs/training/2025/webinar-series-2025Q2/#using-eessi-as-the-base-for-a-system-stack)
+
 ## Overview
 
 ### Scripts
