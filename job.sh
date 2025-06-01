@@ -13,4 +13,4 @@ if [[ ! -f ~/build-node_debian11.sif ]]; then
     apptainer pull docker://ghcr.io/eessi/build-node:debian11
 fi
 
-~/software-layer/eessi_container.sh --mode run -c ~/build-node_debian11.sif -r webinar-demo,access=rw -r software.eessi.io -b ~/software-layer,$PWD -- ./install-on-top-of-EESSI.sh $*
+~/software-layer/eessi_container.sh --mode run -c ~/build-node_debian11.sif -r webinar-demo,access=rw -r software.eessi.io -b ~/software-layer,$PWD -- ./build-on-top-of-EESSI.sh $*
