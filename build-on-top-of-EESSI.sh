@@ -35,9 +35,9 @@ mkdir -p $(realpath /cvmfs/software.eessi.io/host_injections/)
 echo "Running the following EasyBuild command: ${eb_cmd}..."
 ${eb_cmd}
 
-# Enable the following if you want to configure an Lmod cache
+# Enable the following if you want to (re)create an Lmod RC file for configuring an Lmod cache
 # N.B.: it does not actually create the cache, this can be done best on a Stratum 0
-~/software-layer/create_lmodrc.py ${EESSI_SITE_SOFTWARE_PATH}
+#~/software-layer/create_lmodrc.py ${EESSI_SITE_SOFTWARE_PATH}
 
 # Create the tarball containing the new software installation(s)
 host_injections_target=$(realpath /cvmfs/software.eessi.io/host_injections)
